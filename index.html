@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Mi Blog</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
 </head>
 
 <body>
 
-<h1>Bienvenidos a mi blog</h1>
+    <h1>Bienvenidos a mi blog</h1>
+    <p>Este es un blog básico creado con Git y GitHub.</p>
 
-<p>Este es un blog básico creado con Git y GitHub.</p>
+    <h2>Formulario de Contacto</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
 
-<h2>Formulario de Contacto</h2>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
-<form action="/enviar" method="post">
+        <input type="submit" value="Enviar">
+    </form>
 
-<label for="nombre">Nombre:</label><br>
+    <section>
+        <h2>Sobre mí</h2>
 
-<input type="text" id="nombre" name="nombre" required><br><br>
+        <p><strong>Nombre:</strong> Abdiel Abrego<br>
+        <strong>Hobbie:</strong> Bailar</p>
 
-<label for="email">Correo electrónico:</label><br>
-
-<input type="email" id="email" name="email" required><br><br>
-
-<input type="submit" value="Enviar">
-
-</form>
+        <p><strong>Nombre:</strong> Nathaly Bonilla<br>
+        <strong>Hobbie:</strong> Leer</p>
+    </section>
 
 </body>
 
